@@ -1,0 +1,81 @@
+*, html{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Exo;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    margin: 0px;
+    padding: 0px;
+    height: 64px;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+}
+
+.landing{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.9);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+div.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.landing > div.container.col-md-5{
+    background-color: white;
+}
+
+div.container.box {
+    /* max-width: 720px; */
+    padding: 50px;
+}
+
+div.jumbotron{
+    margin: 50px;
+}
+
+div.container.count{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top.footer-image {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 350px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body{
+  padding: 0px;
+  border: 0px;
+}
+
+/* Add some padding inside the card container */
+.card-text {
+  padding: 20px 16px;
+}
+  
+  
