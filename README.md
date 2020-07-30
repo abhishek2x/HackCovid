@@ -5,6 +5,26 @@
 
 ***
 
+<img src="./readme_images/1.png">
+
+***
+## Features: 
+
+<img src="./readme_images/5.png">
+
+***
+
+<img src="./readme_images/2.png">
+
+***
+
+<img src="./readme_images/3.png">
+
+<img src="./readme_images/4.png">
+
+
+***
+
 ## This is a solo project which I submitted in a hackathon named *Hack Jaipur*.
 
 ***
